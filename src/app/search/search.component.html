@@ -1,0 +1,15 @@
+<div class="card mx-3">
+    <div class="card-header">
+        <h4>Parámetros de búsqueda</h4>
+    </div>
+    <div class="card-body"></div>
+    <form action="" class="mx-5">
+        <div class="form-group">
+            <label for="nombre" class="form-label">Nombre:</label>
+            <input [formControl]="search" type="text" name="search" id="nombre" class="form-control">
+        </div>
+        <br>
+        <button (click)="clean()" class="btn btn-primary">Limpiar</button>
+        <br><br>
+    </form>
+</div>
